@@ -1,0 +1,91 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jw.diary.Fragment_sunny">
+
+    <TextView
+        android:id="@+id/sunny_day"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:text="Sunny Day"
+        android:textColor="#FFC107"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:id="@+id/linearLayoutCompat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    </android.support.v7.widget.LinearLayoutCompat>
+
+    <CheckBox
+        android:id="@+id/sunny_check_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/sunny_check_2"
+        android:layout_alignStart="@+id/sunny_check_2"
+        android:layout_marginTop="180dp" />
+
+    <TextView
+        android:id="@+id/sunny_yoga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/sunny_check_1"
+        android:layout_marginLeft="70dp"
+        android:text="Yoga"
+        android:textColor="#FFC107"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/sunny_check_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/sunny_check_1"
+        android:layout_marginEnd="43dp"
+        android:layout_marginRight="43dp"
+        android:layout_marginTop="38dp" />
+
+    <TextView
+        android:id="@+id/sunny_outdoor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/sunny_check_2"
+        android:layout_marginLeft="70dp"
+        android:text="Gym"
+        android:textColor="#FFC107"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/sunny_check_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/sunny_check_2"
+        android:layout_marginEnd="43dp"
+        android:layout_marginRight="43dp"
+        android:layout_marginTop="38dp" />
+
+    <TextView
+        android:id="@+id/sunny_swim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/sunny_check_3"
+        android:layout_marginLeft="70dp"
+        android:text="Swim"
+        android:textColor="#FFC107"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

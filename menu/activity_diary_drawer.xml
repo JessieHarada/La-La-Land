@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/selfie"
+            android:icon="@drawable/selfie"
+            android:title="Selfie" />
+        <item
+            android:id="@+id/music"
+            android:icon="@drawable/music"
+            android:title="Music" />
+        <item
+            android:id="@+id/pen"
+            android:icon="@drawable/pen"
+            android:title="Notes" />
+        <item
+            android:id="@+id/movies"
+            android:icon="@drawable/movies"
+            android:title="Entertainment" />
+    </group>
+
+    <item android:title="Communication">
+        <menu>
+            <item
+                android:id="@+id/contacts"
+                android:icon="@drawable/contacts"
+                android:title="Emails" />
+            <item
+                android:id="@+id/phone"
+                android:icon="@drawable/phone"
+                android:title="Phone Numbers" />
+        </menu>
+    </item>
+
+</menu>

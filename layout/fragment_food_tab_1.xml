@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    tools:context="com.jw.diary.FoodActivity$PlaceholderFragment">
+
+    <TextView
+        android:id="@+id/egg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="40dp"
+        android:text="Egg and Tofu"
+        android:textColor="#E64A19"
+        android:textSize="20sp" />
+
+    <Spinner
+        android:id="@+id/spinneregg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="200dp"
+        app:layout_constraintRight_toRightOf="@+id/egg" />
+
+
+    <TextView
+        android:id="@+id/fruits"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="40dp"
+        android:text="Fruits and Nuts"
+        android:textColor="#E64A19"
+        android:textSize="20sp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <Spinner
+        android:id="@+id/spinnerfruits"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="200dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <TextView
+        android:id="@+id/meat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Meat"
+        android:textColor="#E64A19"
+        android:textSize="20sp"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="40dp"
+        app:layout_constraintBaseline_creator="@+id/spinnerfruits"
+        app:layout_constraintLeft_toLeftOf="parent"
+        tools:layout_editor_absoluteY="327dp" />
+
+    <Spinner
+        android:id="@+id/spinnermeat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="200dp"
+        tools:layout_editor_absoluteY="330dp" />
+
+</RelativeLayout>

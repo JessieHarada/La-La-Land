@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backimg"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="com.jw.diary.MenuActivity">
+
+    <Button
+        android:id="@+id/happy"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="   Collections   "
+        android:background="#FFFFFF"
+        android:drawableLeft="@drawable/rose"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#E91E63"
+        android:onClick="diary"/>
+
+    <Button
+        android:id="@+id/shopping"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:text="   Shopping   "
+        android:background="#FFFFFF"
+        android:drawableLeft="@drawable/purse"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#E91E63"
+        android:onClick="shopping"/>
+
+    <Button
+        android:id="@+id/alarm"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:text="   Date and Time   "
+        android:background="#FFFFFF"
+        android:drawableLeft="@drawable/alarm"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#E91E63"
+        android:onClick="alarm"/>
+
+    <Button
+        android:id="@+id/exercises"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:text="   Exercises   "
+        android:background="#FFFFFF"
+        android:drawableLeft="@drawable/yoga"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#E91E63"
+        android:onClick="exercises"/>
+
+    <Button
+        android:id="@+id/food"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:text="   Diet   "
+        android:background="#FFFFFF"
+        android:drawableLeft="@drawable/food"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#E91E63"
+        android:onClick="food"/>
+
+    <Button
+        android:id="@+id/mom"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:text="   Mom's Email  "
+        android:background="#FFFFFF"
+        android:drawableLeft="@drawable/mom"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#E91E63"
+        android:onClick="mom"/>
+
+</LinearLayout>
+
